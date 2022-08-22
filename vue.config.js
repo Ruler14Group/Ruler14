@@ -3,5 +3,5 @@ const ENV = process.env.NODE_ENV;
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath: ENV === "development" ? "" : "//"
+  publicPath: ENV === "development" ? "" : "/Ruler14Group/"
 })
