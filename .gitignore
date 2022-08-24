@@ -2,3 +2,6 @@ node_modules
 .vscode
 docs/.vuepress/.cache
 docs/.vuepress/.temp
+yarn.lock
+package-lock.json
+desktop.ini
