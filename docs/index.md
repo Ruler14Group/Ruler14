@@ -17,44 +17,57 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
         本制作组于2022年6月2日创办，旨在制作更多有趣的Minecraft规则类生存及小游戏，并将其做成视频，发布在哔站
     </p>
 </div>
-<div class="project">
+<div class="project" style="overflow: hidden;border-radius: 10px;position: relative;">
     <h2>项目介绍</h2>
-    <div class="projectBox" style="background-color: aliceblue;display: flex;overflow-y: hidden;">
-        <div class="projectCard projectCard1">
-            <h2>逃出生天</h2>
-            <img  src="./public/images/逃出生天logo.png">
+    <div class="change" id="back" onclick="">
+        <img src="./public/icon/back.png" alt="">
+    </div>
+    <div class="change" id="next" onclick="">
+        <img src="./public/icon/next.png" alt="">
+    </div>
+    <div class="projectBox" style="display: flex;width: 400%;height: 500px;">
+        <!--  -->
+        <div class="projectCard" id="Card1">
+            <a href=""><img  src="./public/images/逃出生天logo.png"></a>
+            <div style="width:380px;padding: 40px;">
+                <h2>逃出生天</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
         </div>
-        <div class="projectCard projectCard1">
-            <h2>一区块建筑</h2>
-            <img src="./public/images/一区块建筑比赛logo3.png">
-        </div>
-        <div class="projectCard projectCard1">
-            <h2>一区块建筑</h2>
-            <img src="./public/images/一区块建筑比赛logo3.png">
-        </div>
-        <div class="projectCard projectCard1">
-            <h2>一区块建筑</h2>
-            <img src="./public/images/一区块建筑比赛logo3.png">
+        <div class="projectCard" id="Card2">
+            <a href=""><img src="./public/images/一区块建筑比赛logo3.png"></a>
         </div>
     </div>
 </div>
 
 <style>
     .projectCard{
-        flex-shrink: 0;
-        width: 400px;
-        height: 400px;
-    }
-    .projectCard img{
-        width: 100%;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.164);
+        width: 25%;
         height: 100%;
     }
-    .projectCard h2{
-        height: auto;
-        position: sticky;
-        border-bottom:none;
-        top: 20px;
-        text-align: center;
-        padding: 0;
+    .projectCard img{
+        width: 500px;
+        height: 500px;
+        flex-shrink: 0;
+    }
+    #Card1{
+        left: 50%;
+    }
+    .change{
+        height: 80px;
+        position:absolute;
+        top: 50%;
+        z-index: 1;
+    }
+    .change img{
+        height: 100%;
+    }
+    #back{
+        left: 0;
+    }
+    #next{
+        right: 0;
     }
 </style>
