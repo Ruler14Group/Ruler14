@@ -18,7 +18,7 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
     </p>
 </div>
 <h1>项目介绍</h1>
-<div class="project" style="overflow: hidden;position: relative;height: 400px;margin-top: 20px;">
+<div class="project" style="position: relative;margin-top: 20px;">
     <div class="projectBox" style="width: 920px;position: relative;top: 0px;">
         <div class="projectCard" id="Card1">
             <img  src="./public/images/逃出生天logo.png">
@@ -28,11 +28,11 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
             </div>
         </div>
         <div class="projectCard" id="Card2">
-            <img src="./public/images/一区块建筑比赛logo.png">
             <div class="projectText">
                 <h2>接力赛跑</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <img src="./public/images/一区块建筑比赛logo.png">
         </div>
         <div class="projectCard" id="Card3">
             <img src="./public/images/一区块建筑比赛logo.png">
@@ -42,11 +42,11 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
             </div>
         </div>
         <div class="projectCard" id="Card4">
-            <img src="./public/images/一区块建筑比赛logo.png">
             <div class="projectText">
                 <h2>地堡生存</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <img src="./public/images/一区块建筑比赛logo.png">
         </div>
         <div class="projectCard" id="Card5">
             <img src="./public/images/一区块建筑比赛logo.png">
@@ -56,22 +56,22 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
             </div>
         </div>
         <div class="projectCard" id="Card6">
-            <img src="./public/images/神明赐福logo.png">
             <div class="projectText">
                 <h2>神明赐福</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <img src="./public/images/神明赐福logo.png">
         </div>
     </div>
-    <a onclick="" class="change" id="back"><img src="./public/icon/back.png"></a>
-    <a onclick="" class="change" id="next"><img src="./public/icon/next.png"></a>
+    <!-- <button onclick="projectChange(-1)" class="change" id="back"><img src="./public/icon/back.png"></button>
+    <button onclick="projectChange(1)" class="change" id="next"><img src="./public/icon/next.png"></button> -->
 </div>
 
 <style>
     .projectCard{
         display: flex;
+        margin-top: 40px;
         width: 100%;
-        height: 100%;
     }
     .projectCard img{
         background-color: rgba(0, 0, 0, 0.226);
@@ -81,27 +81,34 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
     }
     .projectText{
         height: 320px;
-        width: 440px;
+        width: 480px;
         padding: 40px;
     }
-    #Card1{
-        left: 50%;
-    }
     .change{
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
+        border: 0;
         height: 200px;
         width: 40px;
         position:absolute;
         right: 0;
         z-index: 3;
     }
-    .change img{
+    /* .change img{
         width: 100%;
         height: 100%;
     }
     #back{
         bottom: 200px;
+        background-image: url("public/icon/back.png");
     }
     #next{
         bottom: 0;
-    }
+        background-image: url("public/icon/next.png");
+    } */
 </style>
+<!-- <script>
+    function projectChange(n){
+        console.log(n);
+    }
+</script> -->
