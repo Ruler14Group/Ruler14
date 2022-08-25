@@ -19,18 +19,18 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
 </div>
 <h1>项目介绍</h1>
 <div class="project" style="position: relative;margin-top: 20px;">
-    <div class="projectBox" style="width: 920px;position: relative;top: 0px;">
+    <div class="projectBox" style="width: 100%;position: relative;top: 0px;">
         <div class="projectCard" id="Card1">
             <img  src="./public/images/逃出生天logo.png">
             <div class="projectText">
                 <h2>逃出生天</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
         <div class="projectCard" id="Card2">
             <div class="projectText">
                 <h2>接力赛跑</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <img src="./public/images/一区块建筑比赛logo.png">
         </div>
@@ -38,13 +38,13 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
             <img src="./public/images/一区块建筑比赛logo.png">
             <div class="projectText">
                 <h2>一区块建筑比赛</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
         <div class="projectCard" id="Card4">
             <div class="projectText">
                 <h2>地堡生存</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <img src="./public/images/一区块建筑比赛logo.png">
         </div>
@@ -52,13 +52,13 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
             <img src="./public/images/一区块建筑比赛logo.png">
             <div class="projectText">
                 <h2>后室level1.1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
         <div class="projectCard" id="Card6">
             <div class="projectText">
                 <h2>神明赐福</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <img src="./public/images/神明赐福logo.png">
         </div>
@@ -75,14 +75,12 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
     }
     .projectCard img{
         background-color: rgba(0, 0, 0, 0.226);
-        width: 400px;
-        height: 400px;
-        flex-shrink: 0;
+        width: 40%;
+        max-width: 40%;
     }
     .projectText{
-        height: 320px;
-        width: 480px;
-        padding: 40px;
+        width: 50%;
+        padding: 5%;
     }
     .change{
         background-color: rgba(0, 0, 0, 0);
