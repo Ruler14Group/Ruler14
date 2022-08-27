@@ -4,7 +4,6 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: 'Ruler14',
   description: '一个为实现梦想而奋斗的Minecraft制作组',
-  base: 'Ruler14Group',
   theme: defaultTheme({
     navbar: [
       {
