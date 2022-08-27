@@ -1,4 +1,3 @@
-HEAD
 ---
 lang: zh-CN
 title: Ruler14
