@@ -1,3 +1,4 @@
+HEAD
 ---
 lang: zh-CN
 title: Ruler14
@@ -92,21 +93,4 @@ heroImage: https://p.qlogo.cn/gh/776863832/776863832/0
         right: 0;
         z-index: 3;
     }
-    /* .change img{
-        width: 100%;
-        height: 100%;
-    }
-    #back{
-        bottom: 200px;
-        background-image: url("public/icon/back.png");
-    }
-    #next{
-        bottom: 0;
-        background-image: url("public/icon/next.png");
-    } */
 </style>
-<!-- <script>
-    function projectChange(n){
-        console.log(n);
-    }
-</script> -->
